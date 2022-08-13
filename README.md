@@ -1,5 +1,5 @@
 
-![SWAD-logo](https://raw.githubusercontent.com/Druhin13/Swad-Sweets-Snacks-Corner.github.io/master/assets/swad-100px.png)
+![SWAD-logo](https://github.com/Druhin13/swad-order/raw/main/images/icons/icon-152x152.png)
 
 # <b>Swad</b><br>
 ## Sweets & Snacks Corner
