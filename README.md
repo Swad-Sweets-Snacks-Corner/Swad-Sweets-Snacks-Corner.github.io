@@ -5,3 +5,4 @@
 ## Sweets & Snacks Corner
 
 ### https://swadcake.in
+### https://swad.link
