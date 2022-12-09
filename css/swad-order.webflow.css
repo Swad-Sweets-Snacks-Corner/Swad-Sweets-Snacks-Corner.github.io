@@ -633,10 +633,13 @@
     margin-top: 0px;
     margin-left: 0px;
     padding: 4.25vw;
+    border-style: solid;
     border-width: 0.25px;
     border-color: rgba(0, 0, 0, 0.05);
     border-radius: 1.25vw;
     background-color: #ededed;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
   }
 
   .checkbox.w--redirected-checked {
@@ -654,6 +657,32 @@
 
   .checkbox.w--redirected-focus {
     box-shadow: none;
+  }
+
+  .checkbox.redirected-checked {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    background-color: #ffda7b;
+    background-image: url('../images/tick.svg');
+    background-position: 50% 50%;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
   }
 
   .checkbox-field {
